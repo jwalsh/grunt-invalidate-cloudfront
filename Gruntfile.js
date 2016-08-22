@@ -31,14 +31,14 @@ module.exports = function(grunt) {
     // Configuration to be run (and then tested).
     invalidate_cloudfront: {
       options: {
-        key: 'XXXXXX',
-        secret: 'XXXXXX',
-        distribution: 'XXXXXX'
+        key: 'xxxx',
+        secret: 'xxxx',
+        distribution: 'xxxx'
       },
       production: {
         files: [{
           expand: true,
-          cwd: './build/',
+          cwd: './test/fixtures/',
           src: ['**/*'],
           filter: 'isFile',
           dest: ''

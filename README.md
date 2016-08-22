@@ -48,7 +48,16 @@ You need to pass in your ```key``` (Amazon Key), your ```secrect``` (Amazon Secr
 
 
 ## Contributing
+
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+- Create AWS credentials in ~/.aws/credentials
+- `mkdir tmp && cp test/expected/* tmp`
+
+### Builds 
+
+[![Known Vulnerabilities](https://snyk.io/test/github/jwalsh/grunt-invalidate-cloudfront/badge.svg)](https://snyk.io/test/github/jwalsh/grunt-invalidate-cloudfront)
+
 
 ## Release History
 04. Mai 2013 - first release
